@@ -1,3 +1,5 @@
+package check_simple;
+
 public class CheckSimple {
     public boolean isPrime(int number) {
 

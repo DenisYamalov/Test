@@ -1,10 +1,11 @@
 
 
+import check_simple.CheckSimple;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CheckSimpleTest {
+class CheckSimpleMain {
     CheckSimple checkSimple = new CheckSimple();
 
     @Test
