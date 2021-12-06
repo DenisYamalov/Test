@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CheckSimpleTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-12-06T20:29:33" hostname="DESKTOP-B2MDQGC" time="0.018">
+  <properties/>
+  <testcase name="check3()" classname="CheckSimpleTest" time="0.012"/>
+  <testcase name="check4()" classname="CheckSimpleTest" time="0.001"/>
+  <testcase name="check5()" classname="CheckSimpleTest" time="0.001"/>
+  <testcase name="check6()" classname="CheckSimpleTest" time="0.001"/>
+  <testcase name="check11()" classname="CheckSimpleTest" time="0.0"/>
+  <testcase name="check12()" classname="CheckSimpleTest" time="0.0"/>
+  <testcase name="check19()" classname="CheckSimpleTest" time="0.001"/>
+  <testcase name="check37()" classname="CheckSimpleTest" time="0.0"/>
+  <testcase name="check97()" classname="CheckSimpleTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
