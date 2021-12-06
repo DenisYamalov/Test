@@ -1,5 +1,5 @@
 public class CheckSimple {
-    private static boolean isPrime(int number) {
+    public boolean isPrime(int number) {
 
         if (number == 0 || number == 1) {
             return true;
@@ -14,13 +14,15 @@ public class CheckSimple {
     private static boolean isSimple(int number) {
 
         boolean isSimple = false;
-        for (int i = 2; i == number; i++) {
+        for (int i = 2; i <= number; i++) {
             int check = number % i;
             if (check == 0) {
                 isSimple = false;
+                return isSimple;
             }
             if (check == 1) {
                 isSimple = true;
+                return isSimple;
             }
         }
         return isSimple;
