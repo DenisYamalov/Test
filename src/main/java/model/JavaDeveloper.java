@@ -1,8 +1,5 @@
 package model;
 
-import model.Employee;
-import model.Positions;
-
 import java.math.BigDecimal;
 
 public class JavaDeveloper extends Employee {

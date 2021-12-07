@@ -12,14 +12,14 @@ public class Main {
                 new BigDecimal(50000), Departments.WorkShop));
         employees.add(new Wireman("Petya", "Vasechkin", "Abdulaevich", Positions.Wireman,
                 new BigDecimal(30000), Departments.Warehouse));
-        employees.add(new Quarry("Abdulla","Yarullin","Ahmetovich",Positions.Quarry,
+        employees.add(new Quarry("Abdulla", "Yarullin", "Ahmetovich", Positions.Quarry,
                 new BigDecimal(60000), Set.copyOf(Arrays.asList(1, 2, 3))));
-        employees.add(new Quarry("Abdulla","Yarullin","Ahmetovich",Positions.Quarry,
+        employees.add(new Quarry("Abdulla", "Yarullin", "Ahmetovich", Positions.Quarry,
                 new BigDecimal(40000), Set.copyOf(Arrays.asList(2))));
-        employees.add(new Developer("Sergio","del Amo","Amo",Positions.Developer,
-                new BigDecimal(100000),"PHP","KNRTU"));
-        employees.add(new JavaDeveloper("Almaz","Garaev","Rishatovich",Positions.Developer,
-                new BigDecimal(180000),1,"IntelliJIdea"));
+        employees.add(new Developer("Sergio", "del Amo", "Amo", Positions.Developer,
+                new BigDecimal(100000), "PHP", "KNRTU"));
+        employees.add(new JavaDeveloper("Almaz", "Garaev", "Rishatovich", Positions.Developer,
+                new BigDecimal(180000), 1, "IntelliJIdea"));
 
         System.out.println("There are all employees:");
         System.out.println(employees);
@@ -33,8 +33,8 @@ public class Main {
 
         System.out.println("");
         System.out.println("There are Newton's laws:");
-        for (Employee employee:employees){
-            if (employee.getPosition()==Positions.Quarry){
+        for (Employee employee : employees) {
+            if (employee.getPosition() == Positions.Quarry) {
                 System.out.println("");
                 System.out.println(employee.getInfomation());
                 Quarry quarry = (Quarry) employee;
@@ -43,5 +43,4 @@ public class Main {
 
         }
     }
-
 }
